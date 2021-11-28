@@ -1,0 +1,209 @@
+.column{
+    width: 100%;
+}
+@media (min-width: 600px){
+    .column{
+        width: 50%;
+    }
+}
+
+.heat .com #d{
+    font-size: 60px;
+    font-family: Arbutus;
+    text-align: center;
+    color: rgb(86, 192, 183);
+}
+.heat .com #p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(5, 54, 30);
+    
+}
+.heat .com #k{
+    margin-left: 590px;
+    font-size: 25px;
+    color: rgb(156, 15, 137);
+    
+}
+.heat{
+    background: url('/static/images/back3.jpg') no-repeat;
+    
+    background-size: 100% 100%;
+    margin-left: -10px;
+    margin-top: -43px;
+    padding: 100px;
+}
+
+/*------------------------------------------------------*/
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*-----------------------------------------------*/
+.sec .cont #ce{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.sec .cont #aaa{
+  width: 60%;
+  margin-left: 130px;
+  height:100%;
+}
+.sec .cont #li{
+    font-size: 20px;
+    margin-left: 220px;
+    color: saddlebrown;
+    background-color: turquoise;
+    padding: 10px;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    transition: 0.3s;   
+    
+}
+.sec .cont #li:hover{
+    color: white;  
+    background-color: tomato;
+}
+.sec .cont #aa{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sec{
+    background-color: rgb(253, 217, 214);
+    padding: 40px;
+    padding-bottom: 100px;;
+}
+.sec .cont #li1{
+    margin-left: 250px;
+    font-size: 10px;
+    color: black;
+    background-color: rgb(173, 177, 238);
+    padding: 10px;
+    font-weight: bold;
+        
+    
+}
+.sec .cont #li1:hover{
+    
+    color: white;
+}
+
+.you #for{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+.you .oo{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+}
+.you{
+    padding: 50px;  ;
+}
+.you .nn #a1{
+    float: right;
+    width: 40%;
+    margin-top: -320px;
+}
+#hell{
+    font-size: 50px;;
+}
+.next #v{
+    border-style: none;
+    font-size: 25px;
+    transition: 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 570px;
+    background-color: rgb(218, 17, 17);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+.next #v:hover{
+    color: brown;
+    background-color: lightblue;
+}
+.next #vv{
+    text-align: center;
+    font-size: 30px;
+
+}
+.next{
+    padding: 100px;;
+}
+/*-----------------------------------------------------*/
+.last .column {
+  float: left;
+  width: 30%;
+  
+
+}
+.last{
+    padding: 50px;
+    background-color: rgb(22, 19, 20);
+}
+.last .a1 #dd{
+    font-size: 30px;
+    color: rgb(86, 192, 183);
+    font-family: Arbutus;
+}
+.last .a1 #pp{
+    font-size: 20px;
+    color: white;
+}
+.last .a1 #abc{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(178, 184, 180);
+    padding: 15px;
+    border-radius: 20%;
+    margin-right: 5px;
+}
+.last .a2{
+    text-align: center;
+}
+.last .a2 #d2{
+    font-size: 30px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.last .a2 .oo{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.last .a3{
+    margin-left: 130px;
+}
+.last .a3 #hd{
+    font-size: 30px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.last #c{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    border-width: 1px;
+    
+    border-top-style: solid;
+}
