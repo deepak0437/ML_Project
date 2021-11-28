@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en"dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" {% static "css/predict4.css"%} ">
+
+    <title>Home</title>
+</head>
+<body>
+    
+    
+      <section>
+      <body>
+        <div class="container">
+          <div class="title">Check Your Diabeties</div>
+          <div class="content">
+            <form action="result">
+              <div class="user-details">
+                <div class="input-box">
+                  <span class="details">Pregnencies</span>
+                  <input type="text" placeholder="Number of times pregnant (0-17)" name="n1" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Glucose Tolerance Test</span>
+                  <input type="text" placeholder="Glucose Tolerance(0 to 200) " name="n2" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Blood Pressure</span>
+                  <input type="text" placeholder="BP(0mm Hg-122mm Hg)" name="n3"required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Skin Thickness</span>
+                  <input type="text" placeholder="Skin fold thickness(0-99)mm " name="n4" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Insullin</span>
+                  <input type="text" placeholder="Insulin (0mu U/ml-846mu U/ml) " name="n5" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Body mass index  </span>
+                  <input type="text" placeholder=" BMI(weight in kg(0-67.1)) " name="n6" required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Diabetes pedigree function</span>
+                  <input type="text" placeholder=" Enter value from(0.08 to 2.42) " name="n7"required>
+                </div>
+                <div class="input-box">
+                  <span class="details">Age </span>
+                  <input type="text" placeholder=" Enter your age(21-28) " name="n8"required>
+                </div>
+              </div>
+      
+              <div class="button">
+                <input type="submit" value="SUBMIT">
+               
+              </div>
+            </form>
+          </div>
+        </div><br>
+        <form action="/">
+            <input id="k" type="submit", value="Home">
+        </form>
+        <style>
+            #k{
+                font-size: 20px;
+                padding: 5px;
+                border-radius: 4px;
+                margin-left: 300px;
+               
+                color: white;
+                background: linear-gradient(135deg, #71b7e6, #9b59b6);
+                
+            }
+        </style>
+    </section>
+   
+</body>
+
+</html>

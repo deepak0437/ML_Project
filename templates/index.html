@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+{%load static%}
+<html lang="en"dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href=" {% static "css/index10.css" %} ">
+    <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Home</title>
+</head>
+<body>
+    <section class="heat">
+        <div class="container com">
+        <h1 id="d">Data ForeCast</h1>
+        <p id="p">Forecasting is a technique that uses <br> historical data as inputs to make informed estimates <br> that are predictive in determining the direction of future trends</p>
+        <form action="require">
+            <input id="k" type="submit", value="Know more">
+        </form>
+       
+        
+    </div>
+    </section>
+    <section class="you">
+        <div>
+            <h3 id="for">ForeCasting The Following Projects:</h3>
+            <a href="#one" class="oo">Diabetes Checking</a> <br><br>
+            <a href="#two" class="oo">Marks Criteria</a><br><br>
+            <a href="#three" class="oo">Wine Quality</a><br><br>
+            <a href="#four" class="oo">Check House Price</a><br><br>
+            <a href="#five" class="oo">Check Premium Insurance</a><br><br>
+            <a href="#six" class="oo">Check Concrete strength</a> <br><br>
+            
+                    
+        </div>
+        <div class="nn">
+            <img id="a1"src="{% static "images/ml.jpg" %}" alt="">
+        </div>
+    </section>
+
+    <section class="sec">
+        <div class="container cont">
+            <h1 id="ce">CHECK YOUR PREDICTIONS</h1> <br><br><br>
+            <div class="row">
+                <div class="column">
+                    <div class="container nn" id="one">
+                        <img id="aaa"src="{% static "images/diabetes.jpg" %}" alt=""><br><br><br>
+                        <p id="aa">The datasets consists of several medical predictor<br> variables and one target variable, Outcome. <br>Predictor variables includes the number of<br> pregnancies the patient has had, their BMI,<br> insulin level, age.</p>
+                        <form action="predict">
+                            <input id="li" type="submit", value="Check Your Diabetes">
+                        </form> <br><br><br><br>
+                        
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container nn" id="two">
+                        <img id="aaa"src="{% static "images/marks.jpg" %}" alt=""><br><br><br>
+                        <p id="aa">The datasets consists of several subjects marks<br> variables and one target variable i.e <br>Pass or Fail, Outcome. Predictor variables<br> includes the number of marks of maths,<br> physics and chemistry.</p>
+
+                        <form action="marks">
+                            <input id="li" type="submit", value="Check Your Criteria">
+                        </form><br><br><br><br>
+                        
+                    </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                    <div class="container nn" id="three">
+                        <img id="aaa"src="{% static "images/wine.jpg" %}" alt=""><br><br><br>
+                        <p id="aa">The datasets consists of several wine predictor variables and one target variable i.e wine is low , medium or high quality, Outcome. Predictor variables includes the number types, fixed acidity, volatile acidity,citric acid,residual sugar,chlorides,free sulfur dioxide,total sulfur dioxide,pH,sulphates,alcohol</p>
+                        <form action="wine">
+                            <input id="li" type="submit", value="Check Wine Quality">
+                        </form><br><br><br><br>
+                        
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container nn" id="four">
+                        <img id="aaa"src="{% static "images/house.jpg" %}" alt=""><br><br><br>
+                        <p id="aa">The datasets consists of several house details variables and one target variable i.e predict price of house, Outcome. Predictor variables includes the number of avg. area income, avg. area house age, number of rooms, number of bedrooms and area populations.</p>
+
+                        <form action="house">
+                            <input id="li" type="submit", value="Check House Price">
+                        </form><br><br><br><br>
+                        
+
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                    <div class="container nn" id="five">
+                        <img id="aaa"src="{% static "images/insurance.jpg" %}" alt=""><br><br><br>
+                        <p id="aa">The datasets consists of several insurance details variables and one target variable i.e predict price of Premium insurance, Outcome. Predictor variables includes the number of age, gender , BMI, number of children, predictors are smoker or not and region belonging from south west 0r east and north west or east.</p>
+                        <form action="insurance">
+                            <input id="li" type="submit", value="Check Premium Insurance">
+                        </form><br><br><br><br>
+                        
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container nn" id="six">
+                        <img id="aaa"src="{% static "images/cement.jpg" %}" alt=""><br><br><br>
+                        <br><br><p id="aa">The datasets consists of several house details variables and one target variable i.e predict strength of Concrete, Outcome. Predictor variables includes cement, Blast_furnace, fly_ash, water, Superplasticizer, Coarse_aggregate, Fine_aggregate and age in no.of days.</p>
+
+                        <form action="cement">
+                            <input id="li" type="submit", value="Check Concrete strength">
+                        </form><br><br><br><br>
+                        
+
+                    </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+        
+<br>
+<section class="next">
+    <div class="container">
+        <h1 id="vv"> CODES AND DATASETS OF ABOVE PROJECTS</h1>
+        <form action="predict">
+            <a id="v" href="https://github.com/deepak0437/ml_project/tree/main">View Now</a>
+            
+        </form>
+    </div>
+</section>
+
+<section class="last">
+    <div class="row">
+        <div class="column a1">
+            <h1 id="dd">Data ForeCast</h1>
+        <p id="pp">Forecasting is a technique that uses <br>historical data as inputs to make informed<br> estimates that are predictive in <br>determining the direction<br> of future trends</p>
+        <br><br><br>
+  <a id="abc" href="https://github.com/deepak0437" class="fa fa-github"></a>
+  <a id="abc" href="https://www.instagram.com/kumardeepak0437/" class="fa fa-instagram"></a>
+  <a id="abc" href="https://www.linkedin.com/in/deepak-singh-a7137b189/" class="fa fa-linkedin"></a>
+  <a id="abc" href="https://www.facebook.com/profile.php?id=100009397007418" class="fa fa-facebook"></a>
+  <a id="abc" href="https://twitter.com/Deepak_0437" class="fa fa-twitter"></a>
+
+        </div>
+        <div class="column a2">
+            <h1 id="d2">Links</h1>
+            <a href="#one" class="oo">Diabetes Checking</a> <br><br>
+            <a href="#two" class="oo">Marks Criteria</a><br><br>
+            <a href="#three" class="oo">Wine Quality</a><br><br>
+            <a href="#four" class="oo">House Price</a><br><br>
+            <a href="#five" class="oo">Premium Insurance</a><br><br>
+            <a href="#six" class="oo">Concrete strength</a> <br><br>
+        </div>
+        <div class="column a3">
+            <h1 id="hd">Contact</h1><br>
+            <i class="fa fa-map-marker" style="font-size:26px; color: white;"> Patia, Bhubaneshwar, Odisha </i> 
+    <br><br>
+            <i class="fa fa-phone" style="font-size:26px ; color: white;"> 9097153288  </i>  <br><br>
+            <i class="fa fa-envelope" style="font-size:26px ; color: white;"> kumardeepak0437@gamil.com </i>
+        </div>
+        
+      </div><br><br>
+      <h4 id="c">Copyright ©2020 All rights reserved | This Website is made with  by @Deepak</h4>
+</section>
+</body>
+</html>

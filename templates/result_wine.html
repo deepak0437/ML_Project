@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en"dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" {% static "css/index.css"%} ">
+
+    <title>Home</title>
+</head>
+<body>
+
+    <section class="see">
+        <div class="container">
+            <h1>Wine Quality Report</h1>
+            <hr style="border-color: black; border-width: 2px;">
+            <h3>{{result4}}</h3><br><br><br><br>
+            <form action="/">
+                <input id="k" type="submit", value="Home ">
+            </form>
+        </div>
+    </section>
+    
+    
+    
+
+    <style>
+        
+        h1{
+            font-size: 60px;
+            text-align: center;
+        }
+        .see{
+            background-color: rgb(128, 228, 195);
+            padding: 176px;
+        }
+        h3{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #k{
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgb(128, 228, 195);
+            transition: 0.4s;
+            padding: 5px;
+            color: brown;
+        }
+        #k:hover{
+            background-color: pink;
+        }
+    </style>
+</body>
+</html>
